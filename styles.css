@@ -1,0 +1,37 @@
+body {
+    background-color: #fffbf7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+form > input {
+    margin: 2px;
+    padding: 5px;
+}
+
+h1 {
+    color: #025157;
+}
+
+#general__text {
+    color: #46484c;
+}
+
+.promotional__text{
+    color:#8b8b8bcc;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+
+.page {
+    display: grid;
+    place-items: center;
+    height: 50vh;
+}
