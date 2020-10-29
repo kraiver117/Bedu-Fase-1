@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #fffbf7;
 }
@@ -28,10 +34,73 @@ h1 {
 button {
     color: #fff;
     background-color: #025157;
+    padding: 10px 5px;
 }
 
 .page {
     display: grid;
     place-items: center;
-    height: 50vh;
+    height: 100vh;
+}
+
+.header {
+    margin: 40px 20px 0px 20px;
+    height: 45px;
+    font-size: 0;
+    font-family: sans-serif;
+}
+
+li {
+    display: inline;
+    padding: 0px 25px 0px 25px;
+    color: #025157;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions{
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: #67b54b;
+}
+
+.actions > * {
+margin: 0px 10px 0px 10px;
+}
+
+.actions > a {
+    text-decoration: none;
+    color: #67b54b;
+}
+
+.actions > button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
 }
